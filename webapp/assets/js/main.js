@@ -57,15 +57,13 @@ function init() {
 
 document.addEventListener('keydown', (e) => {
   // e.preventDefault();
-  // console.log(e);
-
+  
   if (dataConnection === undefined) {
     return;
   }
 
   // https://keycode.info/
-  console.log('[Key Code] ArrowLeft');
-  // dataConnection.send({ turn: 'left' });
+  console.log(e.code);
   dataConnection.send(e.code);
 });
 
