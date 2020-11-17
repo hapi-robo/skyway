@@ -17,7 +17,7 @@ SKYWAY_DOMAIN="<insert-your-domain-here>"
 ## webapp
 Add a `.env` file at the root of the `webapp/` folder with the following contents:
 ```
-SKYWAY_API_KEY="API-KEY"
+SKYWAY_API_KEY="<insert-your-api-key-here>"
 ```
 
 Make sure you have NodeJS installed. Then run:
